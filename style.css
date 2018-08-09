@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 500px 500px 1fr;
+  grid-template-rows: 1fr 450px 200px 100px;
+  grid-template-areas:
+  " bio bio image . "
+  " skills skills projects projects"
+  " . contact-me contact-me . "
+  " connect-links connect-links connect-links connect-links ";
+}
+
+.bio{
+  grid-area: bio;
+  padding: 40px;
+}
+
+.image{
+  grid-area: image;
+  justify-self: end;
+}
+
+.skills{
+  grid-area: skills;
+  background-color: #DF744A;
+  padding: 70px;
+}
+
+.projects{
+  grid-area: projects;
+  background-color: #DF744A;
+  padding: 70px;
+}
+
+.contact-me{
+  grid-area: contact-me;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.connect-links{
+  grid-area: connect-links;
+  background-color: #CDCDCD;
+  padding: 50px 0;
+  text-align: center;
+
+}
+
+.about-me{
+  color: #DF744A;
+}
+
+h2 span{
+  background-color: white;
+  padding: 5px;
+  color: #DF744A;
+}
+
+.fab {
+  color: black;
+  padding: 5px;
+}
+
+.far  a {
+  color: black;
+}
+
+li {
+  margin-left: 50px;
+  font-family: helvetica;
+  font-size: 20px;
+  padding: 20px;
+}
+
+ a{
+   color: black;
+ }
+
+ a:link {
+   text-decoration: none;
+ }
+
+
+h1 {
+  display: inline;
+  padding: 10px;
+  color: black;
+}
+
+
+#welcome {
+  margin-bottom: 30px;
+}
+
+#about-me-text {
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+.underline {
+  border-bottom: 4px solid #FEDCD2;
+}
+
+
+.links {
+  padding: 30px 0;
+}
+.hover:hover {
+  background-color: #FEDCD2;
+  color: black;
+}
+
+#github-link {
+    font-family: helvetica;
+    font-size: 20px;
+    display:block;
+    text-align:center;
+
+
+  }
+  color: black;
+}
