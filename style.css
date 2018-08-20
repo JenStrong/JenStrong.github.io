@@ -72,8 +72,9 @@ h2 span{
 li {
   margin-left: 50px;
   font-family: helvetica;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 15px;
+  color: black;
 }
 
  a{
@@ -91,7 +92,6 @@ h1 {
   color: black;
 }
 
-
 #welcome {
   margin-bottom: 30px;
 }
@@ -103,24 +103,32 @@ h1 {
 
 .underline {
   border-bottom: 4px solid #FEDCD2;
+  border-top: 4px transparent;
 }
 
 
 .links {
   padding: 30px 0;
 }
+
 .hover:hover {
   background-color: #FEDCD2;
   color: black;
+  border-bottom: 4px solid #FEDCD2;
+  border-top: 4px solid #FEDCD2;
+  border-radius: 5px
 }
 
 #github-link {
     font-family: helvetica;
-    font-size: 20px;
+    font-size: 18px;
     display:block;
     text-align:center;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
 
-
-  }
-  color: black;
+.title {
+  font-weight: bold;
 }
